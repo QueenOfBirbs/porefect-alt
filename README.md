@@ -8,6 +8,12 @@ Deployed alternative theme: https://queenofbirbs.github.io/porefect-alt/index.ht
 Not functional like the deployed app, this version is purely to show off the unused theme and nothing more.
 <br>
 <br>
+<ul>
+  <li>
 Final deplyed app: https://porefect.herokuapp.com/
+  </li>
 <br>
+  <li>
 Fully functional but using a different theme.
+  </li>
+</ul>
