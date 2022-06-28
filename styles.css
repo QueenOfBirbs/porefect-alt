@@ -1,0 +1,282 @@
+/* colors and fonts */
+/* font-family: 'Monoton', cursive;
+font-family: 'Truculenta', sans-serif; */
+/* green #A2E039 */
+/* orange #FC8F2E */
+/* yellow #EFE924 */
+/* red #eb4b01 */
+
+/* BODY */
+body {
+  padding-top: 60px;
+}
+
+body.login {
+  background-image: url(./photos/wallpaper1.jpg);
+}
+
+body.signup {
+  background-image: url(./photos/wallpaper4.jpg);
+}
+
+body.home {
+  background-image: url(./photos/orangegingham.jpg);
+}
+
+body.profile {
+  background-image: url(./photos/yellowpolkadot.jpg);
+}
+
+body.progress {
+  background-image: url(./photos/transorangedots.png);
+}
+
+/* hover effects (https://codepen.io/geoffgraham/pen/bxEVEN) */
+#nav {
+  background: linear-gradient(
+    to bottom,
+    var(--mainColor) 0%,
+    var(--mainColor) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  color: #000;
+  text-decoration: none;
+}
+
+#nav:link {
+  color: black;
+}
+
+#nav:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  color: white;
+}
+
+#nav:active {
+  color: white;
+  text-decoration: none;
+}
+
+/* NAVBAR*/
+nav.navbar {
+  background-color: #a2e039;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin-bottom: 200px;
+}
+
+a#title {
+  -webkit-text-stroke: 0.75px #fc8f2e;
+  position: absolute;
+  right: 1220px;
+  top: 7px;
+}
+
+a#title:link,
+a#title:visited,
+a#title:active {
+  font-family: "Monoton", cursive;
+  text-decoration: none;
+  color: white;
+}
+
+a#title:hover {
+  font-family: "Monoton", cursive;
+  text-decoration: none;
+  color: white;
+}
+
+a#nav {
+  margin: 5px;
+  font-size: large;
+}
+
+a#nav:link,
+a#nav:visited,
+a#nav:active {
+  font-family: "Truculenta", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a#nav:hover {
+  font-family: "Truculenta", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* HOMEPAGE */
+.jumbotron {
+  background-image: url(./photos/products.jpg);
+  background-size: cover;
+  height: 475px;
+  width: 100%;
+}
+
+p#description {
+  font-family: "Truculenta", sans-serif;
+  font-weight: bold;
+  background-color: white;
+  padding: 20px;
+  opacity: calc(0.95);
+  border-style: double;
+  border-radius: 20px;
+  border-width: 10px;
+}
+
+/* SIGN UP PAGE*/
+#signup-title {
+  color: #eb4b01;
+  -webkit-text-stroke-color: white;
+  padding: 10px;
+  font-family: "Monoton", cursive;
+}
+
+#signup-box {
+  margin-top: 100px;
+  background-color: white;
+  background-size: contain;
+  border: #ef2924;
+  border-style: double;
+  border-radius: 20px;
+  border-width: 10px;
+  opacity: calc(0.95);
+  width: 325px;
+  height: 425px;
+  padding: 25px;
+  font-family: "Truculenta", sans-serif;
+  color: #000;
+  position: absolute;
+  left: 600px;
+}
+
+#createBtn {
+  background-color: transparent;
+  border: none;
+}
+
+/* LOGIN PAGE */
+#login-title {
+  color: #fc8f2e;
+  -webkit-text-stroke-color: white;
+  padding: 10px;
+  font-family: "Monoton", cursive;
+}
+
+#login-box {
+  margin-top: 100px;
+  background-color: white;
+  background-size: contain;
+  border: #eb2b01;
+  border-style: double;
+  border-radius: 20px;
+  border-width: 10px;
+  opacity: 0.95;
+  width: 325px;
+  height: 350px;
+  padding: 25px;
+  font-family: "Truculenta", sans-serif;
+  color: #000;
+  position: absolute;
+  left: 600px;
+}
+
+#loginBtn {
+  background-color: transparent;
+  border: none;
+}
+
+/* PROGRESS PAGE */
+#progress-box {
+  margin-top: 20px;
+}
+
+#month-box {
+  border: #a2e039;
+  border-width: 20px;
+  border-style: double;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  height: 575px;
+  opacity: calc(0.95);
+}
+
+img#progress-pic {
+  width: max-content;
+  height: max-content;
+}
+
+.card-title {
+  font-family: "Monoton", cursive;
+  font-size: xx-large;
+  color: #eb4b01;
+}
+
+.card-sub {
+  font-family: "Monoton", cursive;
+  font-size: x-large;
+  color: #efe924;
+}
+
+.card-body {
+  font-family: "Truculenta", sans-serif;
+  font-size: large;
+  line-height: 24px;
+}
+
+/* PROFILE PAGE */
+#profile-box {
+  margin-top: 100px;
+}
+
+img.rounded-circle {
+  position: absolute;
+  left: 90px;
+}
+
+#routine-title {
+  padding-bottom: 20px;
+  font-family: "Monoton", cursive;
+  font-size: xx-large;
+  color: #eb4b01;
+}
+
+#routine-box {
+  background-color: white;
+  opacity: calc(0.85);
+  border: #eb2b01;
+  border-style: double;
+  border-radius: 20px;
+  border-width: 10px;
+  padding: 30px;
+  width: 900px;
+  font-family: "Truculenta", sans-serif;
+  font-size: large;
+  font-weight: bolder;
+}
+
+#step {
+  color: #a2e039;
+  font-family: "Monoton", cursive;
+}
+
+h5{
+  display: inline-block;
+}
+
+#change-button {
+float: right;
+}
+
+#add-button {
+
+}
