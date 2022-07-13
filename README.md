@@ -33,7 +33,7 @@ To run this application locally make sure to copy the files and then run npm ins
 
 ## Usage
 
-This is a group project assignment though feel free to look around and play with the app!
+This is a group project assignment though feel free to look around and play with the app! Uses Bootstrap, Handlebars, Javaascript and Cloudinary for uploading photos. Made in May 2022.
 Here is a screenshot of the application:
 
 <img src="./images/example.png">
